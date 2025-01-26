@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="http://localhost:8888/index.php"></parameter>
+	<parameter name="username" value="admin"></parameter>
+	<parameter name="password" value="root"></parameter>
+	<parameter name="title" value="Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM"></parameter>
+    <classes>
+      <class name="com.tek.datadriventesting.ReadDataFromXMLParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
