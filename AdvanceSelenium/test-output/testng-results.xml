@@ -1,53 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-20T14:39:00 IST" name="Default suite" finished-at="2024-12-20T14:39:00 IST" duration-ms="66">
+  <suite started-at="2025-01-26T23:53:01 IST" name="Default suite" finished-at="2025-01-26T23:53:01 IST" duration-ms="184">
     <groups>
     </groups>
-    <test started-at="2024-12-20T14:39:00 IST" name="Default test" finished-at="2024-12-20T14:39:00 IST" duration-ms="66">
-      <class name="com.tek.testng.ConfigurationAnnotationTestNG">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="beforeSuite" finished-at="2024-12-20T14:39:00 IST" duration-ms="9" status="PASS">
+    <test started-at="2025-01-26T23:53:01 IST" name="Default test" finished-at="2025-01-26T23:53:01 IST" duration-ms="184">
+      <class name="com.tek.testng.EcommerceDemo">
+        <test-method signature="register()[pri:0, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="register" finished-at="2025-01-26T23:53:01 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="beforeClass" finished-at="2024-12-20T14:39:00 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- register -->
+        <test-method signature="login()[pri:1, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="login" finished-at="2025-01-26T23:53:01 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="beforeMethod" finished-at="2024-12-20T14:39:00 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:1, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="login" finished-at="2025-01-26T23:53:01 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="test1" finished-at="2024-12-20T14:39:00 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="myProfile()[pri:2, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="myProfile" finished-at="2025-01-26T23:53:01 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="afterMethod" finished-at="2024-12-20T14:39:00 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- myProfile -->
+        <test-method signature="search()[pri:3, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="search" finished-at="2025-01-26T23:53:01 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="beforeMethod" finished-at="2024-12-20T14:39:00 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- search -->
+        <test-method signature="orders()[pri:4, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="orders" finished-at="2025-01-26T23:53:01 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="test2" finished-at="2024-12-20T14:39:00 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- orders -->
+        <test-method signature="cart()[pri:5, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="cart" finished-at="2025-01-26T23:53:01 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="afterMethod" finished-at="2024-12-20T14:39:00 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- cart -->
+        <test-method signature="wishlist()[pri:6, instance:com.tek.testng.EcommerceDemo@7f485fda]" started-at="2025-01-26T23:53:01 IST" name="wishlist" finished-at="2025-01-26T23:53:01 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="afterClass" finished-at="2024-12-20T14:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.tek.testng.ConfigurationAnnotationTestNG@795509d9]" started-at="2024-12-20T14:39:00 IST" name="afterSuite" finished-at="2024-12-20T14:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.tek.testng.ConfigurationAnnotationTestNG -->
+        </test-method> <!-- wishlist -->
+      </class> <!-- com.tek.testng.EcommerceDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
